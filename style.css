@@ -1,0 +1,173 @@
+body {
+    background-color: #ede9e9;
+}
+
+.la-loteria {
+    font-family: 'Pinyon Script', serif;
+    color: #000;
+    text-align: left;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: rotate(-15deg);
+    display: inline-block;
+}
+
+.layout-container {
+    display: flex; /* for hzontal grid */
+    gap: 20px; 
+    justify-content: center; 
+    align-items: flex-start; /* align items to the top */
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.grid-container {
+    background: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 10px;
+    width: 1920px;
+    max-width: 500px;
+}
+
+.grid-container img {
+    width: 100%; /* Fit image in the grid cell */
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*  for button and drawn cards */
+.side-container {
+    display: flex;
+    flex-direction: column; /* Stack button and drawn cards vertically */
+    gap: 20px; /* Space between button and drawn cards */
+}
+
+/* Drawn Card Styling */
+.drawn-card {
+    font-family: Liter;
+    font-weight: 900;
+    display: flex; /* Display drawn cards horizontally */
+    gap: 10px; /* Space between cards */
+}
+
+.drawn-card img {
+    width: 100px; /* Size for drawn cards */
+    margin-bottom: 500px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+button {
+    font-family: Besley;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: rgb(90, 90, 90);
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.card-one{
+    width: 100px;
+    height: 100px;
+}
+
+.card-one:hover{
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+}
+
+.card-two{
+    width: 10px;
+    height: 50px;
+}
+
+.card-three{
+    width: 10px;
+    height: 50px;
+}.card-four{
+    width: 10px;
+    height: 50px;
+}.card-five{
+    width: 10px;
+    height: 50px;
+}.card-six{
+    width: 10px;
+    height: 50px;
+}.card-seven{
+    width: 10px;
+    height: 50px;
+}
+.card-eight{
+    width: 10px;
+    height: 50px;
+}
+.card-nine{
+    width: 10px;
+    height: 50px;
+}
+
+.card-ten{
+    width: 10px;
+    height: 50px;
+}
+
+.card-eleven{
+    width: 10px;
+    height: 50px;
+}
+
+.card-twleve{
+    width: 10px;
+    height: 50px;
+}
+
+
+.card-thirteen{
+    width: 10px;
+    height: 50px;
+}
+
+.card-fourteen{
+    width: 10px;
+    height: 50px;
+}
+
+.card-fifteen{
+    width: 10px;
+    height: 50px;
+}
+
+.card-sixteen{
+    width: 10px;
+    height: 50px;
+}
+
+.dragme{
+    position:absolute;
+    width: 75px;
+    height: 50.75px;
+    cursor: move;
+}
+
+#green-bean{
+    width: 75px;
+    height: 75px;
+}
